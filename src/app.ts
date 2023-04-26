@@ -14,7 +14,9 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (_req, res) => {
-  res.send("<h1 style='text-align: center;'>Inari Test for DevOps Position</h1>");
+  res.send(
+    "<h1 style='text-align: center;'>Inari Test for DevOps and MLops Position</h1>"
+  );
 });
 
 app.get("/editorials", async (_req, res) => {
